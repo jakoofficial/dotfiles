@@ -15,8 +15,9 @@ bindkey -e
 #Aliases
 #Git
 alias g=git
-alias g-aa="git add --all && git commit && git push"
-alias g-c"git checkout"
+alias gaap="git add --all && git commit && git push"
+alias gc="git checkout"
+alias gs="git status"
 
 alias rm="rm -r"
 alias cp="cp -r"
