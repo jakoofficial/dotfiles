@@ -11,14 +11,15 @@ HISTSIZE=10000
 SAVEHIST=10000
 bindkey -e
 # End of lines configured by zsh-newuser-install
-#Aliass
+
+#Aliases
 #Git
 alias g=git
 alias g-aa="git add --all && git commit && git push"
-
-alias cls=clear
+alias g-c"git checkout"
 
 alias rm="rm -r"
 alias cp="cp -r"
 alias cd..="cd .."
 alias upd="source ~/.zshrc && echo 'Update Zsh config file!'"
+alias c=clear
