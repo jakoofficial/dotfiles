@@ -18,9 +18,17 @@ alias g=git
 alias gaap="git add --all && git commit && git push"
 alias gc="git checkout"
 alias gs="git status"
+alias gb="git branch"
+alias gdel="git branch -d"
+alias gdelori="git push origin -d"
+alias gpnewbranch="git push --set-upstream origin "
 
+alias win="cd /mnt/c/Users/jakoy/Desktop && echo 'On windows bby'"
+alias curproj="cd /mnt/c/Users/jakoy/Desktop/SmallScreenLife && cr"
+alias comd="nano ~/.zshrc"
 alias rm="rm -r"
 alias cp="cp -r"
 alias cd..="cd .."
 alias upd="source ~/.zshrc && echo 'Update Zsh config file!'"
+alias cr="clear && pwd"
 alias c=clear
